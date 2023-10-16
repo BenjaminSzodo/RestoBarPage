@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      textColor: {
+        'custom-orange': 'rgb(255, 181, 0)',
+      },
+    },
   },
   plugins: [],
 }
