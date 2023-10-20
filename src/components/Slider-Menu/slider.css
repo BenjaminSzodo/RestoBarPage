@@ -1,0 +1,26 @@
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after , .swiper-button-prev:after {
+    color:red;
+    position: absolute;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold
+
+}
+
+.swiper-button-prev:after {
+    margin-right: 25px;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    margin-left: 25px;
+}
+
+.swiper-slide.swiper-active {
+    height: 40vh; /* Altura de 85vh */
+  }
+
+  @media (max-width: 750px) {
+    .swiper-slide-image {
+      height: 85vw;
+    }
+  }
