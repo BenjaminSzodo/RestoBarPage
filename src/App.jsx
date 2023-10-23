@@ -1,7 +1,7 @@
 import NavBar from "./components/NavBar/NavBar";
 import Sliders from "./components/Slider-Menu/Slider"
 import SlidersPromos from "./components/Slider-Promos/SliderPromos"
-import Contacto from "./components/Contacto/Contacto";
+import Contact from "./components/Contacto/Contact";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <NavBar />
         <SlidersPromos/>
         <Sliders/>
-        <Contacto/>
+      <Contact/>
       </div>
     </div>
   );
