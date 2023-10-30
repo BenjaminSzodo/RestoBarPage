@@ -1,5 +1,5 @@
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after , .swiper-button-prev:after {
-    color:red;
+    color:rgb(254,215,170);
     position: absolute;
     margin-bottom: 20px;
     font-size: 30px;

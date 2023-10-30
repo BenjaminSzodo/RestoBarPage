@@ -9,6 +9,9 @@ export default {
       textColor: {
         'custom-orange': 'rgb(255, 181, 0)',
       },
+      backgroundColor: {
+        'custom-orange': 'rgb(255, 181, 0)'
+      }
     },
   },
   plugins: [],
