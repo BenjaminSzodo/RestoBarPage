@@ -60,12 +60,13 @@ const updateMenu = async (req, res) => {
 const createMenu = async (req, res) => {
   try {
     const { url } = req.body;
-    const menu = await Menu.create({ url });
+    const menu = await Menu.create({ image: url });
     res.status(201).json(menu);
   } catch (error) {
+    console.error('Error creating menu:', error);
     res.status(500).json({ error: "Error creating menu" });
   }
-};
+}
 
 
 module.exports = {

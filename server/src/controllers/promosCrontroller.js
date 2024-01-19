@@ -58,11 +58,10 @@ const updatePromo = async (req, res) => {
 };
 
 
-
 const createPromos = async (req, res) => {
   try {
     const { url } = req.body;
-    const promo = await Promos.create({ url });
+    const promo = await Promos.create({ image: url });
     res.status(201).json(promo);
   } catch (error) {
     res.status(500).json({ error: "Error to create Promo's tables" });
